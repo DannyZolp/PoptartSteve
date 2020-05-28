@@ -1,0 +1,26 @@
+{
+  "name": "poptartstevebot",
+  "version": "1.1.0",
+  "description": "an annoying discord bot",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "PoptartSteveBot"
+  },
+  "keywords": [
+    "discordjs",
+    "discordbot"
+  ],
+  "author": "dannyzolp",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^12.2.0",
+    "dotenv": "^8.2.0",
+    "random": "^2.2.0",
+    "shutterstock-api": "^1.0.22"
+  }
+}
