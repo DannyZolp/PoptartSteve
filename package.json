@@ -4,7 +4,7 @@
   "description": "an annoying discord bot",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "node server.js && exit 1",
     "start": "node server.js",
     "dev": "nodemon server"
   },
