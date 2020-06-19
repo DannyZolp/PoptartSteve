@@ -5,7 +5,8 @@ const Discord = require("discord.js");
 const Random = require("random");
 const ShutterstockAPI = require("shutterstock-api");
 const randomWords = require("random-words");
-const deviantnode = require("deviantnode");
+const deviantapi = require("./api/deviantart");
+const badwords = require("bad-words");
 
 require("dotenv").config();
 
@@ -31,12 +32,9 @@ function GetImage(query, callback) {
 }
 
 // Easy way to get an image from DeviantArt
-function GetDeviation(query, amount, callback) {
-    deviantnode
-        .getTagDeviations(process.env.deviant_ID, process.env.deviant_Secret, {
-            tag: query,
-            limit: amount
-        })
+function GetDeviation(query, callback) {
+    deviantapi
+        .getQuery(process.env.deviant_ID, process.env.deviant_Secret, query)
         .then((res) => {
             callback(new Discord.MessageAttachment(res.results[Random.int(0, res.results.length - 1)].preview.src), query);
         })
@@ -44,6 +42,9 @@ function GetDeviation(query, amount, callback) {
             callback("There was an error (tell Danny): " + err);
         });
 }
+
+// Bad Words API Instantiation
+const Filter = new badwords();
 
 /*****
  * Bot Instatiation & Functions
@@ -58,8 +59,12 @@ bot.on("ready", () => {
 });
 
 bot.on("message", (msg) => {
-    if (msg.author.tag === "PoptartSteve#0236") {
+    if (msg.author.tag === bot.user.tag) {
         return;
+    }
+
+    if (Filter.isProfane(msg.toString())) {
+        msg.channel.send("Stop fucking swearing dumbass");
     }
 
     if (
@@ -86,9 +91,13 @@ bot.on("message", (msg) => {
         });
     } else if (msg.toString() === "!nsfw") {
         // if a user types !nsfw sends an nsfw deviantart image
-        GetDeviation("mature", 50, (res) => {
-            msg.channel.send(res);
-        })
+        if (msg.channel.nsfw) {
+            GetDeviation("nsfw", (res) => {
+                msg.channel.send(res);
+            });
+        } else {
+            msg.channel.send("Hey fucker, no NSFW in the non-nsfw channel");
+        }
     } else if (Random.int(0, 3500) === 0) {
         // 1 in 3500 chance a user gets an image of honey boo boo
         GetImage("Honey boo boo", (res, query) => {
