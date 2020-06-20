@@ -25,5 +25,10 @@ jobs:
       with:
         node-version: ${{ matrix.node-version }}
     - run: npm ci
+    - env:
+        shutterAPI_ID: ${{ secret.shutterID }}
+        shutterAPI_Secret: ${{ secret.shutterSecret }}
+        deviant_ID: ${{ secret.deviantID }}
+        deviant_Secret: ${{ secret.deviantSecret }}
     - run: npm run build --if-present
     - run: npm test
