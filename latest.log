@@ -1,0 +1,175 @@
+
+
+09:02:21.240 INFO  Sent message, Hey fucker, no NSFW in the non-NSFW channel 
+09:02:33.916 ERROR uri is not defined
+{}
+ReferenceError: uri is not defined
+    at /Users/dannyzolp/GitHub/PoptartSteve/api/index.js:49:23
+    at new Promise (<anonymous>)
+    at Function.module.exports.ProcessText (/Users/dannyzolp/GitHub/PoptartSteve/api/index.js:28:12)
+    at Client.<anonymous> (/Users/dannyzolp/GitHub/PoptartSteve/server.js:29:17)
+    at Client.emit (events.js:210:5)
+    at MessageCreateAction.handle (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:436:22)
+    at WebSocketShard.onMessage (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:293:10) 
+09:02:40.822 ERROR uri is not defined
+{}
+ReferenceError: uri is not defined
+    at /Users/dannyzolp/GitHub/PoptartSteve/api/index.js:49:23
+    at new Promise (<anonymous>)
+    at Function.module.exports.ProcessText (/Users/dannyzolp/GitHub/PoptartSteve/api/index.js:28:12)
+    at Client.<anonymous> (/Users/dannyzolp/GitHub/PoptartSteve/server.js:29:17)
+    at Client.emit (events.js:210:5)
+    at MessageCreateAction.handle (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:436:22)
+    at WebSocketShard.onMessage (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:293:10) 
+09:02:43.847 ERROR uri is not defined
+{}
+ReferenceError: uri is not defined
+    at /Users/dannyzolp/GitHub/PoptartSteve/api/index.js:49:23
+    at new Promise (<anonymous>)
+    at Function.module.exports.ProcessText (/Users/dannyzolp/GitHub/PoptartSteve/api/index.js:28:12)
+    at Client.<anonymous> (/Users/dannyzolp/GitHub/PoptartSteve/server.js:29:17)
+    at Client.emit (events.js:210:5)
+    at MessageCreateAction.handle (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:436:22)
+    at WebSocketShard.onMessage (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:293:10) 
+09:05:34.249 ERROR uri is not defined
+{}
+ReferenceError: uri is not defined
+    at /Users/dannyzolp/GitHub/PoptartSteve/api/index.js:49:23
+    at new Promise (<anonymous>)
+    at Function.module.exports.ProcessText (/Users/dannyzolp/GitHub/PoptartSteve/api/index.js:28:12)
+    at Client.<anonymous> (/Users/dannyzolp/GitHub/PoptartSteve/server.js:29:17)
+    at Client.emit (events.js:210:5)
+    at MessageCreateAction.handle (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:436:22)
+    at WebSocketShard.onMessage (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:293:10) 
+09:06:07.191 ERROR uri is not defined
+{}
+ReferenceError: uri is not defined
+    at /Users/dannyzolp/GitHub/PoptartSteve/api/index.js:49:23
+    at new Promise (<anonymous>)
+    at Function.module.exports.ProcessText (/Users/dannyzolp/GitHub/PoptartSteve/api/index.js:28:12)
+    at Client.<anonymous> (/Users/dannyzolp/GitHub/PoptartSteve/server.js:29:17)
+    at Client.emit (events.js:210:5)
+    at MessageCreateAction.handle (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:436:22)
+    at WebSocketShard.onMessage (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:293:10) 
+09:06:40.447 ERROR uri is not defined
+{}
+ReferenceError: uri is not defined
+    at /Users/dannyzolp/GitHub/PoptartSteve/api/index.js:49:23
+    at new Promise (<anonymous>)
+    at Function.module.exports.ProcessText (/Users/dannyzolp/GitHub/PoptartSteve/api/index.js:28:12)
+    at Client.<anonymous> (/Users/dannyzolp/GitHub/PoptartSteve/server.js:29:17)
+    at Client.emit (events.js:210:5)
+    at MessageCreateAction.handle (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:436:22)
+    at WebSocketShard.onMessage (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:293:10) 
+09:07:13.523 ERROR uri is not defined
+{}
+ReferenceError: uri is not defined
+    at /Users/dannyzolp/GitHub/PoptartSteve/api/index.js:49:23
+    at new Promise (<anonymous>)
+    at Function.module.exports.ProcessText (/Users/dannyzolp/GitHub/PoptartSteve/api/index.js:28:12)
+    at Client.<anonymous> (/Users/dannyzolp/GitHub/PoptartSteve/server.js:29:17)
+    at Client.emit (events.js:210:5)
+    at MessageCreateAction.handle (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:436:22)
+    at WebSocketShard.onMessage (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:293:10) 
+09:07:33.473 ERROR uri is not defined
+{}
+ReferenceError: uri is not defined
+    at /Users/dannyzolp/GitHub/PoptartSteve/api/index.js:49:23
+    at new Promise (<anonymous>)
+    at Function.module.exports.ProcessText (/Users/dannyzolp/GitHub/PoptartSteve/api/index.js:28:12)
+    at Client.<anonymous> (/Users/dannyzolp/GitHub/PoptartSteve/server.js:29:17)
+    at Client.emit (events.js:210:5)
+    at MessageCreateAction.handle (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:436:22)
+    at WebSocketShard.onMessage (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:293:10) 
+09:09:00.345 ERROR uri is not defined
+{}
+ReferenceError: uri is not defined
+    at /Users/dannyzolp/GitHub/PoptartSteve/api/index.js:49:23
+    at new Promise (<anonymous>)
+    at Function.module.exports.ProcessText (/Users/dannyzolp/GitHub/PoptartSteve/api/index.js:28:12)
+    at Client.<anonymous> (/Users/dannyzolp/GitHub/PoptartSteve/server.js:29:17)
+    at Client.emit (events.js:210:5)
+    at MessageCreateAction.handle (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:436:22)
+    at WebSocketShard.onMessage (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:293:10) 
+09:10:17.401 ERROR uri is not defined
+{}
+ReferenceError: uri is not defined
+    at /Users/dannyzolp/GitHub/PoptartSteve/api/index.js:49:23
+    at new Promise (<anonymous>)
+    at Function.module.exports.ProcessText (/Users/dannyzolp/GitHub/PoptartSteve/api/index.js:28:12)
+    at Client.<anonymous> (/Users/dannyzolp/GitHub/PoptartSteve/server.js:29:17)
+    at Client.emit (events.js:210:5)
+    at MessageCreateAction.handle (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:436:22)
+    at WebSocketShard.onMessage (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:293:10) 
+09:10:49.771 ERROR uri is not defined
+{}
+ReferenceError: uri is not defined
+    at /Users/dannyzolp/GitHub/PoptartSteve/api/index.js:49:23
+    at new Promise (<anonymous>)
+    at Function.module.exports.ProcessText (/Users/dannyzolp/GitHub/PoptartSteve/api/index.js:28:12)
+    at Client.<anonymous> (/Users/dannyzolp/GitHub/PoptartSteve/server.js:29:17)
+    at Client.emit (events.js:210:5)
+    at MessageCreateAction.handle (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:436:22)
+    at WebSocketShard.onMessage (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:293:10) 
+09:11:23.456 ERROR uri is not defined
+{}
+ReferenceError: uri is not defined
+    at /Users/dannyzolp/GitHub/PoptartSteve/api/index.js:49:23
+    at new Promise (<anonymous>)
+    at Function.module.exports.ProcessText (/Users/dannyzolp/GitHub/PoptartSteve/api/index.js:28:12)
+    at Client.<anonymous> (/Users/dannyzolp/GitHub/PoptartSteve/server.js:29:17)
+    at Client.emit (events.js:210:5)
+    at MessageCreateAction.handle (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:436:22)
+    at WebSocketShard.onMessage (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:293:10) 
+09:12:53.899 ERROR uri is not defined
+{}
+ReferenceError: uri is not defined
+    at /Users/dannyzolp/GitHub/PoptartSteve/api/index.js:49:23
+    at new Promise (<anonymous>)
+    at Function.module.exports.ProcessText (/Users/dannyzolp/GitHub/PoptartSteve/api/index.js:28:12)
+    at Client.<anonymous> (/Users/dannyzolp/GitHub/PoptartSteve/server.js:29:17)
+    at Client.emit (events.js:210:5)
+    at MessageCreateAction.handle (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/actions/MessageCreate.js:31:14)
+    at Object.module.exports [as MESSAGE_CREATE] (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/handlers/MESSAGE_CREATE.js:4:32)
+    at WebSocketManager.handlePacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketManager.js:386:31)
+    at WebSocketShard.onPacket (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:436:22)
+    at WebSocketShard.onMessage (/Users/dannyzolp/GitHub/PoptartSteve/node_modules/discord.js/src/client/websocket/WebSocketShard.js:293:10) 
+09:13:18.194 INFO  Sent message, undefined[object Object] 
+09:14:27.066 INFO  Sent message, undefined[object Object] 
+09:15:26.887 INFO  Sent message, [object Object] 
