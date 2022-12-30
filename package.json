@@ -24,13 +24,13 @@
     "discord.js": "^12.2.0",
     "dotenv": "^8.2.0",
     "random": "^2.2.0",
-    "random-words": "^1.1.1",
+    "random-words": "^1.2.0",
     "shutterstock-api": "^1.0.22",
     "simple-node-logger": "^18.12.24"
   },
   "devDependencies": {
     "chai": "^4.2.0",
-    "mocha": "^8.0.1",
+    "mocha": "^8.4.0",
     "nodemon": "^2.0.4"
   }
 }
